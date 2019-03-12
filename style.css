@@ -1,4 +1,5 @@
-body div nav a:hover {
+body div nav a:hover,
+.dropdown-menu a:hover {
   background: paleturquoise;
   border-radius: 25%;
 }
@@ -7,10 +8,6 @@ body .container-nav {
   background: gray;
 }
 
-.dropdown-menu a:hover {
-  background: paleturquoise;
-  border-radius: 25%;
-}
 #home {
   background: url("./img/correct.jpg") no-repeat center center/cover;
 }

@@ -1,0 +1,18 @@
+body div nav a:hover,
+.dropdown-menu a:hover {
+  background: paleturquoise;
+  border-radius: 25%;
+}
+
+#navbarNavDropdown {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-nav {
+  opacity: 0.85;
+}
+
+.container-footer {
+  background: lightgrey;
+}
