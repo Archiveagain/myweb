@@ -11,5 +11,5 @@
     //send email
     mail($admin_email, "New Form Submission", $message . ' - ' . $phone, "From:" . $email);
     
-    header('Location: 127.0.0.1:5500/success.html');
+    header('Location: https://archiveagain.github.io/CycleWorld/success.html');
   } 
