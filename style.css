@@ -1,0 +1,85 @@
+body div nav a:hover {
+  background: paleturquoise;
+  border-radius: 25%;
+}
+
+body .container-nav {
+  background: gray;
+}
+
+.dropdown-menu a:hover {
+  background: paleturquoise;
+  border-radius: 25%;
+}
+#home {
+  background: url("./img/correct.jpg") no-repeat center center/cover;
+}
+
+.jumbotron {
+  height: 100vh;
+}
+
+/* .nav.navbar.navbar-expand-lg {
+  width: 100%;
+} */
+
+.container-nav {
+  opacity: 0.75;
+}
+
+#navbarSupportedContent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#about .container {
+  background: paleturquoise;
+}
+
+#home p {
+  color: salmon;
+  font-size: 1.6rem;
+}
+/* ABOUT SECTION */
+
+#about a {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#about a:hover {
+  background: paleturquoise;
+}
+
+/* CONTACT SECTION*/
+#contact .contact-form {
+  background: gray;
+}
+
+#contact .img-contact img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  width: 800px;
+  height: 540px;
+  margin: 8px 0;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/* FOOTER */
+#main-footer .container-footer {
+  background: grey;
+  height: 60px;
+  align-items: center;
+  margin-top: 6px;
+}
+#main-footer .container-footer p {
+  margin: auto 0;
+  font-size: 1.4rem;
+}
