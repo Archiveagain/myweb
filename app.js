@@ -1,4 +1,4 @@
-let text = ["Cycle The World", "Viajar El Mundo ", "Zwiedzaj Świat"];
+let text = ["Cycle The World", "Viajar El Mundo ", "Rowerem Przez Świat"];
 let counter = 0;
 
 const h1 = document.getElementById("changeText");
