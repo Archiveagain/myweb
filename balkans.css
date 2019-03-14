@@ -18,9 +18,14 @@ body div nav a:hover,
 }
 
 #main-footer {
-  height: 50px;
-  margin-top: 0.5rem;
+  height: 55px;
+  margin-top: 0.2rem;
   background: lightgray;
+}
+
+#main-footer p {
+  margin: auto 0;
+  padding-top: 0.55rem;
 }
 
 div img {
