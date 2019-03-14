@@ -2,6 +2,7 @@ body div nav a:hover,
 .dropdown-menu a:hover {
   background: paleturquoise;
   border-radius: 25%;
+  padding: auto;
 }
 
 body .container-nav {
@@ -10,33 +11,46 @@ body .container-nav {
 
 #home {
   background: url("./img/correct.jpg") no-repeat center center/cover;
-}
-
-.jumbotron {
-  height: 100vh;
-}
-
-/* .nav.navbar.navbar-expand-lg {
-  width: 100%;
-} */
-
-.container-nav {
-  opacity: 0.75;
-}
-
-#navbarSupportedContent {
-  display: flex;
-  justify-content: flex-end;
-}
-
-#about .container {
-  background: paleturquoise;
+  /* linear-gradient(
+      transparent 0px,
+      rgba(0, 0, 0, 0.55) 45px,
+      rgba(0, 0, 0, 0.55)
+    ); */
 }
 
 #home p {
   color: salmon;
   font-size: 1.6rem;
 }
+
+.jumbotron {
+  height: 100vh;
+}
+
+/* NAVBAR */
+
+.container-nav {
+  opacity: 0.75;
+}
+
+#navbarSupportedContent {
+  /* display: flex; */
+  justify-content: flex-end;
+}
+
+.navbar-collapse {
+  display: flex;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  text-align: center;
+}
+
+/* TRIPS SECTION */
+#card-gallery .container {
+  background: lightcyan;
+}
+
 /* ABOUT SECTION */
 
 #about a {
@@ -45,12 +59,20 @@ body .container-nav {
 }
 
 #about a:hover {
-  background: paleturquoise;
+  background: lightcyan;
+}
+
+#about .container {
+  background: lightcyan;
 }
 
 /* CONTACT SECTION*/
+#contact .container {
+  background: lightcyan;
+}
+
 #contact .contact-form {
-  background: gray;
+  background: lightgray;
 }
 
 #contact .img-contact img {
@@ -70,13 +92,8 @@ body .container-nav {
 }
 
 /* FOOTER */
-#main-footer .container-footer {
-  background: grey;
-  height: 60px;
-  align-items: center;
-  margin-top: 6px;
-}
-#main-footer .container-footer p {
-  margin: auto 0;
-  font-size: 1.4rem;
+#main-footer {
+  height: 50px;
+  margin-top: 0.5rem;
+  background: lightgray;
 }

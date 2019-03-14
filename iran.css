@@ -5,7 +5,7 @@ body div nav a:hover,
 }
 
 #navbarNavDropdown {
-  display: flex;
+  /* display: flex; */
   justify-content: flex-end;
 }
 
@@ -13,6 +13,12 @@ body div nav a:hover,
   opacity: 0.85;
 }
 
-.container-footer {
-  background: lightgrey;
+.navbar-collapse {
+  display: flex;
+}
+
+#main-footer {
+  height: 50px;
+  margin-top: 0.5rem;
+  background: lightgray;
 }
